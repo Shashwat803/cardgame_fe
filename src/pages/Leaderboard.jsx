@@ -10,7 +10,8 @@ const Leaderboard = () => {
     const handleLeaderboard = async()=>{
      const response = await getLeaderboard()
      if(response.status === 200){
-        console.log(response.data);
+       const sortedData = response.data.sort((a,b)=>b.wins - a.wins)
+       console.log(sortedData);
         setLeaderboard(response.data)
      }
     }
