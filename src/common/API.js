@@ -1,9 +1,10 @@
 import axios from "axios";
 
-const devBaseUrl = "http://localhost:8080/"
+// const devBaseUrl = "http://localhost:8080/"
+const ProdBaseUrl = "https://cardgame-be.onrender.com/"
 
 const api = axios.create({
-    baseURL: devBaseUrl,
+    baseURL: ProdBaseUrl,
    
 })
 
