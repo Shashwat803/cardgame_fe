@@ -25,4 +25,8 @@
   font-size: 1rem;
   text-transform: uppercase;
 }
-
+.start-game{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}

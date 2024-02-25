@@ -45,14 +45,16 @@ const Cards = () => {
     <div className="container">
       <div className="cards">
         {showBoard &&
-          cards.length > 0 &&
-          cards.map((card, i) => (
-            <Card
-              card={card}
-              key={i}
-              onClick={() => handleValueChange(card)}
-            />
-          ))}
+          cards.length > 0 ? (
+            cards.map((card, i) => (
+              <Card
+                card={card}
+                key={i}
+                onClick={() => handleValueChange(card)}
+              />
+            ))
+          ):(<h2 className="start-game">Start Game</h2>)
+         }
       </div>
     </div>
   );
