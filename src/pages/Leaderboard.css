@@ -1,0 +1,29 @@
+.leaderboard-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaderboard{
+    width: 100%;
+    height:100vh;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.leaderboard-data{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.leaderboard-btn{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 3px;
+  }
+

@@ -1,0 +1,52 @@
+.board-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    background-color: black;
+    height: 100%;
+    width:100%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .button-container button{
+   padding: 8px 45px;
+   margin-bottom:30px;
+   background-color:darkgoldenrod;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   border: none;
+  }
+ 
+  .button-container button:hover{
+   background-color:rgba(184, 135, 11, 0.751);
+  }
+
+  
+  .gameboard-btn{
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+  .link{
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+
+ 
+  .score{
+    margin-top: 0.5em;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+  

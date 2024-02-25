@@ -1,0 +1,28 @@
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+.card {
+  height: 180px;
+  width: 25.6%;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-name{
+  font-size: medium;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
